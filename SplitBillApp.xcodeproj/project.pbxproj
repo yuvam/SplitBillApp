@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		D51925962A63EAF900089F5F /* SplitBillAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925952A63EAF900089F5F /* SplitBillAppApp.swift */; };
-		D51925982A63EAF900089F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925972A63EAF900089F5F /* ContentView.swift */; };
 		D519259A2A63EAFA00089F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51925992A63EAFA00089F5F /* Assets.xcassets */; };
 		D519259E2A63EAFA00089F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D519259D2A63EAFA00089F5F /* Preview Assets.xcassets */; };
+		D51925A52A63EB6900089F5F /* ExpenseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925A42A63EB6900089F5F /* ExpenseRepository.swift */; };
+		D51925A72A63EB9A00089F5F /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925A62A63EB9A00089F5F /* ExpenseModel.swift */; };
+		D51925A92A63EBB800089F5F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925A82A63EBB800089F5F /* UserModel.swift */; };
+		D51925AB2A63EBDC00089F5F /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925AA2A63EBDC00089F5F /* UserRepository.swift */; };
+		D51925AE2A63EC5C00089F5F /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925AD2A63EC5C00089F5F /* ExpenseViewModel.swift */; };
+		D51925B02A63EC8900089F5F /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925AF2A63EC8900089F5F /* ExpenseListView.swift */; };
+		D51925B22A63ECAF00089F5F /* ExpenseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925B12A63ECAF00089F5F /* ExpenseCardView.swift */; };
+		D51925B42A63ECDF00089F5F /* ExpenseAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925B32A63ECDF00089F5F /* ExpenseAddEditView.swift */; };
+		D51925B62A63ED6900089F5F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925B52A63ED6900089F5F /* UserViewModel.swift */; };
+		D51925B82A63ED8A00089F5F /* UserAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925B72A63ED8A00089F5F /* UserAddView.swift */; };
+		D51925BA2A63EDAE00089F5F /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925B92A63EDAE00089F5F /* UserListView.swift */; };
+		D51925BD2A63F23E00089F5F /* ExpenseSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51925BC2A63F23E00089F5F /* ExpenseSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D51925922A63EAF900089F5F /* SplitBillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitBillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51925952A63EAF900089F5F /* SplitBillAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBillAppApp.swift; sourceTree = "<group>"; };
-		D51925972A63EAF900089F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D51925992A63EAFA00089F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D519259B2A63EAFA00089F5F /* SplitBillApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitBillApp.entitlements; sourceTree = "<group>"; };
 		D519259D2A63EAFA00089F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D51925A42A63EB6900089F5F /* ExpenseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRepository.swift; sourceTree = "<group>"; };
+		D51925A62A63EB9A00089F5F /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		D51925A82A63EBB800089F5F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D51925AA2A63EBDC00089F5F /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		D51925AD2A63EC5C00089F5F /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		D51925AF2A63EC8900089F5F /* ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
+		D51925B12A63ECAF00089F5F /* ExpenseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCardView.swift; sourceTree = "<group>"; };
+		D51925B32A63ECDF00089F5F /* ExpenseAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseAddEditView.swift; sourceTree = "<group>"; };
+		D51925B52A63ED6900089F5F /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		D51925B72A63ED8A00089F5F /* UserAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddView.swift; sourceTree = "<group>"; };
+		D51925B92A63EDAE00089F5F /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		D51925BC2A63F23E00089F5F /* ExpenseSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				D51925952A63EAF900089F5F /* SplitBillAppApp.swift */,
-				D51925972A63EAF900089F5F /* ContentView.swift */,
+				D51925AC2A63EC1500089F5F /* Expense */,
+				D51925BB2A63EE5700089F5F /* User */,
 				D51925992A63EAFA00089F5F /* Assets.xcassets */,
 				D519259B2A63EAFA00089F5F /* SplitBillApp.entitlements */,
 				D519259C2A63EAFA00089F5F /* Preview Content */,
@@ -67,6 +90,96 @@
 				D519259D2A63EAFA00089F5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D51925AC2A63EC1500089F5F /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				D58C34512A644F9D0004B7A0 /* Repository */,
+				D58C34502A644F8B0004B7A0 /* Model */,
+				D58C344F2A644F810004B7A0 /* ViewModel */,
+				D58C344E2A644F610004B7A0 /* View */,
+			);
+			path = Expense;
+			sourceTree = "<group>";
+		};
+		D51925BB2A63EE5700089F5F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D58C34552A644FE20004B7A0 /* Model */,
+				D58C34542A644FD30004B7A0 /* Repository */,
+				D58C34532A644FCA0004B7A0 /* ViewModel */,
+				D58C34522A644FC20004B7A0 /* View */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D58C344E2A644F610004B7A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D51925AF2A63EC8900089F5F /* ExpenseListView.swift */,
+				D51925B12A63ECAF00089F5F /* ExpenseCardView.swift */,
+				D51925B32A63ECDF00089F5F /* ExpenseAddEditView.swift */,
+				D51925BC2A63F23E00089F5F /* ExpenseSummaryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D58C344F2A644F810004B7A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D51925AD2A63EC5C00089F5F /* ExpenseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D58C34502A644F8B0004B7A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D51925A62A63EB9A00089F5F /* ExpenseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D58C34512A644F9D0004B7A0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D51925A42A63EB6900089F5F /* ExpenseRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D58C34522A644FC20004B7A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D51925B72A63ED8A00089F5F /* UserAddView.swift */,
+				D51925B92A63EDAE00089F5F /* UserListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D58C34532A644FCA0004B7A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D51925B52A63ED6900089F5F /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D58C34542A644FD30004B7A0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D51925AA2A63EBDC00089F5F /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D58C34552A644FE20004B7A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D51925A82A63EBB800089F5F /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +252,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D51925982A63EAF900089F5F /* ContentView.swift in Sources */,
+				D51925B62A63ED6900089F5F /* UserViewModel.swift in Sources */,
+				D51925A52A63EB6900089F5F /* ExpenseRepository.swift in Sources */,
+				D51925AB2A63EBDC00089F5F /* UserRepository.swift in Sources */,
+				D51925AE2A63EC5C00089F5F /* ExpenseViewModel.swift in Sources */,
+				D51925B22A63ECAF00089F5F /* ExpenseCardView.swift in Sources */,
+				D51925B42A63ECDF00089F5F /* ExpenseAddEditView.swift in Sources */,
+				D51925B82A63ED8A00089F5F /* UserAddView.swift in Sources */,
+				D51925A72A63EB9A00089F5F /* ExpenseModel.swift in Sources */,
+				D51925A92A63EBB800089F5F /* UserModel.swift in Sources */,
 				D51925962A63EAF900089F5F /* SplitBillAppApp.swift in Sources */,
+				D51925B02A63EC8900089F5F /* ExpenseListView.swift in Sources */,
+				D51925BA2A63EDAE00089F5F /* UserListView.swift in Sources */,
+				D51925BD2A63F23E00089F5F /* ExpenseSummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +399,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -285,10 +409,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luxoft.SplitBillApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,8 +437,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -321,10 +447,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luxoft.SplitBillApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
